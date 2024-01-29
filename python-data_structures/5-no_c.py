@@ -1,0 +1,7 @@
+#!/usr/bin/python3def
+def no_c(my_string):
+    new_string = ''
+    for a in my_string:
+        if a != 'C' and a != 'c':
+            new_string += a
+    return new_string
