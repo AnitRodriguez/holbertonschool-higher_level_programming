@@ -2,8 +2,6 @@
 """class"""
 
 
-from typing import Self
-
 
 class Rectangle:
     """class Rectangle"""
