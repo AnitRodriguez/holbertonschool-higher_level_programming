@@ -2,7 +2,6 @@
 """class"""
 
 
-
 class Rectangle:
     """class Rectangle"""
 
