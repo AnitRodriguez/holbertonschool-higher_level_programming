@@ -24,14 +24,15 @@ class Rectangle:
     def __str__(self):
         """Returns an informal printable string representation
         of a Rectangle instance, with the '#' character."""
-        if self.__height == 0 or self.__width == 0:
-            return ''
-        rec_str = ''
-        for a in range(self.__height):
-            for b in range(self.__width):
-                rec_str += '#'
-            rec_str += '\n'
-        return rec_str[:-1]
+        string = ""
+        if self.width == 0 or self.height == 0:
+            return string
+
+        for x in range(self.__height):
+            for y in range(self.__width):
+                string += str(self.print_symbol)
+            string += '\n'
+        return string[:-1]
 
     def __repr__(self):
         """Return a string representation of a Rectangle instance
