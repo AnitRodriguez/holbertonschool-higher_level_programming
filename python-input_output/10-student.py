@@ -13,7 +13,7 @@ class Student:
 
     def to_json(self, attrs=None):
 
-        if not isinstance(attrs, list=[]):
+        if not isinstance(attrs, list):
             return self.__dict__
         else:
             dicc = {}
